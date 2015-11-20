@@ -19,7 +19,7 @@ php artisan migrate
 php artisan db:seed
 php artisan key:generate
 php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
-php artisan jwt:generate
+php artisan jwt:secret
 ```
 
 ### Step 3: Serve
