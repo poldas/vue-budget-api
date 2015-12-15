@@ -30,6 +30,8 @@ php artisan serve
 ### Note about Apache
 If you use Apache to serve this, you will need to add the following 2 lines to your .htaccess (or your virtualhost configuration):
 ```
-RewriteCond %{HTTP:Authorization} ^(.)
-RewriteRule . - [e=HTTP_AUTHORIZATION:%1]
+RewriteCond %{HTTP:Authorization} ^(.*)
+RewriteRule .* - [e=HTTP_AUTHORIZATION:%1]
 ```
+
+
