@@ -2,9 +2,9 @@
 
 namespace Api\Requests;
 
-use App\Http\Requests\Request;
+use Dingo\Api\Http\FormRequest;
 
-class DogRequest extends Request
+class DogRequest extends FormRequest
 {
 	public function authorize()
 	{
