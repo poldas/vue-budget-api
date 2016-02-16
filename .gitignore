@@ -1,6 +1,7 @@
 /vendor
 /node_modules
 Homestead.yaml
+.idea/
 Homestead.json
 .env
 _ide_helper*.php
